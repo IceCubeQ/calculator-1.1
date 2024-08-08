@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator by IceCube</title>
+    <link rel="stylesheet" href="site.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <div class="content">
+        <h1 class="name">Калькулятор</h1>
+
+        <input class="number" type="number" placeholder="Введите первое число:" value="" id="num1">
+
+        <input class="number" type="number" placeholder="Введите второе число:" value="" id="num2">
+        <div class="v">
+            <button class="button" id="plus">Сумма</button>
+
+            <button class="button" id="minus">Разность</button>
+
+            <button class="button" id="um">Произведение</button>
+
+            <button class="button" id="del">Частное</button>
+
+        </div>
+        <button class="number" id="decision">Вычислить</button>
+
+        <div class="result">
+
+            <h4 class="name" id="res">Результат:</h4>
+
+            <p id="answer"></p>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #222428;
+}
+
+h1 {
+    margin-top: 150px;
+}
+
+.content {
+    color: white;
+    font-family: "Roboto", sans-serifz;
+    margin: auto;
+    max-width: 425px;
+    text-align: center;
+    /* margin-top: 120px; */
+    
+
+}
+
+.number {
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.button {
+    border: none;
+    width: 40%;
+    height: 27px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    font-size: 15px;
+
+    
+}
+
+/* .button:last-child {
+    margin-right: 0;
+} */
+
+.v {
+    margin: auto;
+    text-align: center;
+}
+
+#plus {
+    background-color: #459059;
+    margin-right: 10px;
+    /* margin-left: 15px; */
+} 
+
+#plus:hover {
+    background-color: #3a794b;
+}
+
+#minus {
+    background-color: #bf354a;
+    margin-left: 10px;
+    /* margin-left: 15px; */
+}
+
+#minus:hover {
+    background-color: #a02c3d;
+}
+
+#um {
+    margin-top: 10px;
+    background-color: #0f81da;
+    /* margin-left: 15px;
+    margin-left: 15px; */
+}
+
+#um:hover {
+    background-color: #0d6bb4;
+}
+
+#del {
+    background-color: #cab247;
+    /* margin-left: 15px;
+    margin-left: 15px; */
+}
+
+#del:hover {
+    background-color: #ae993d;
+}
+
+#decision {
+    margin-top: 10px ;
+    background-color: #222428;
+    color: #6e92a2;
+    border: 1px solid #6e92a2;
+    margin-bottom: 5px;
+}
+
+#decision:hover {
+    background-color: #6e92a2 ;
+    border: 1px solid black;
+    color: black;
+}
+
+.result {
+    background-color: white;
+    color: black;
+    width: 400px;
+    border-radius: 10px;
+}
+
+#res {
+    padding-top: 5px;
+    margin-bottom: 0;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#answer {
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+@media(max-width: 510px) {
+    .content {
+        width: 400px;
+    }
+}
